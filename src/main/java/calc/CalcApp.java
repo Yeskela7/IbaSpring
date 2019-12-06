@@ -1,17 +1,13 @@
-package app;
+package calc;
 
+import app.Application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * http://localhost:8080/users
- */
-
 @SpringBootApplication
-public class Application {
+public class CalcApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class);
+        SpringApplication.run(CalcApp.class);
     }
-
 }
